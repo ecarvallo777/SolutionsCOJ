@@ -18,12 +18,10 @@ public class youcansayeleven {
        int imp = 0;
        int fin = 0;
 
-       char a = numero.charAt(0);
-       par+= Integer.parseInt(a+"");
-        for (int i = 1; i<numero.length(); i++){
+       for (int i = 0; i<numero.length(); i++){
 
 
-            a = numero.charAt(i);
+            char a = numero.charAt(i);
             int number = Integer.parseInt(a+"");
             if(i%2==0)
                par += number;
